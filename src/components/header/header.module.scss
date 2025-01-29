@@ -1,0 +1,94 @@
+
+
+header{
+    background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+ }
+ 
+ .logoheader{
+     display: flex;
+     width: 30%;
+     justify-content: space-around;
+     align-items: center;
+ 
+     img {
+         width: 15%;
+         display: flex;
+         
+     }
+ 
+     h1 {
+         font-size: 30px;
+         display: flex;
+         color: #fff;
+     }
+ }
+ 
+ .navHeader {
+     width: 30%;
+ 
+     ul {
+         display: flex;
+         justify-content: space-around;
+         list-style: none;
+     }
+ 
+     .link {
+         color: #fff;
+         font-size: 20px;
+         text-decoration: none;
+     }
+ } 
+ 
+ .barraDeBusca {
+     border: solid #fff;
+     border-radius: 20px;
+     margin-right: 1%;
+     width: 20%;
+     height: 6vh;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ 
+     input {
+         background-color: transparent;
+         border: none;
+         border-radius: 3vh;
+         width: 80%;
+         height: 5vh;
+ 
+         &::placeholder {
+             color: #fff;
+             font-size: 14px;
+             
+         }
+     }
+ 
+    
+    
+     button {
+         background-color: transparent;
+         border: none;
+         cursor: pointer;
+     }
+ 
+ }
+ 
+ @media (max-width: 780px){
+     header{
+         flex-direction: column;
+         justify-content: space-evenly;
+     }
+     .logoheader{
+         width: 90%;
+     }
+     .navHeader{
+         width: 95%;
+     }
+     .barraDeBusca{
+         display: none;
+     }
+ }
