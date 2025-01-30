@@ -1,8 +1,7 @@
-# React + Vite
+Desafio final da vai na web!!
+feito em React vite.    
+![header](https://capsule-render.vercel.app/api?type=soft&color=gradient&height=5)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Caso queiram saber mais sobre o meu desempenho na programação pode me seguir no:
+- Linkedin:
+https://www.linkedin.com/in/maria-eduarda-santos-daitx-157b05334/
