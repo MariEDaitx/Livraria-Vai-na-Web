@@ -2,21 +2,20 @@ import LivroProtagonistas from '../../assets/livroUm.png'
 import s from'./livrosdoados.module.scss'
 import { useState,useEffect } from 'react'
 import axios from 'axios'
-import { use } from 'react'
+
 
 
 export default function Livrosdoados(){
     
     const [livros, setlivros] = useState([])
 
-    const getlivros = async () => {
+    const getlivros = async() =>{
         const resposta = await axios.get("https://api-livraria-vnw.onrender.com/livros")
         setlivros(resposta.data)
     }
 
     useEffect(()=>{
-        getlivros()
-        alert("useEffect execultou")
+      getlivros()
     }, [])
 
     return(

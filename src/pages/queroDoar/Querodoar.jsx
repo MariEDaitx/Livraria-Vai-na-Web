@@ -36,6 +36,7 @@ export default function Querodoar(){
             autor,
             image_url
         }
+        console.log(dadosAEnviar)
     await axios.post("https://api-livraria-vnw.onrender.com/doar",dadosAEnviar)
     }
     return(
